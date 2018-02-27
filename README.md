@@ -26,10 +26,10 @@ al `PATH`, donde se instalan los comandos y aplicaciones creadas por stack.
 Para ello ejecutamos el siguiente comando en la terminal:
 
 ```bash
-$ echo PATH="./.local/bin:$PATH" >> ~/.bashrc
+$ echo PATH="~/.local/bin:$PATH" >> ~/.bashrc
 ```
 
-Abrir una nueva terminal y verificar que se agrego la ruta `./.local/bin` al `PATH`:
+Abrir una nueva terminal y verificar que se agrego la ruta `~/.local/bin` al `PATH`:
 ```
 $ echo $PATH
 ```
